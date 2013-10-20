@@ -37,14 +37,13 @@ The Gromacs compatible topology was generated from files obtained from the [Lipi
 3. Rename PPC.top to POPC.itp and change the PPC string inside it with POPC (if you want).
 
 Single point energy
-===================
+-------------------
 
 Below are the calculated energies of the POPC.pdb structure, without any cut-off on the non-bonded interactions.
 
-Gromacs
--------
+### Gromacs
 
-The values were obtained using the parameters defined POPC.mdp file.
+The values were obtained using the parameters defined in POPC.mdp file.
 
        Energies (kJ/mol)
                Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
