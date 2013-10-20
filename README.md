@@ -1,11 +1,7 @@
 GAFFLipids2Gromacs
 ==================
 
-The Gromacs compatible topology was generated from files obtained from the [Lipidbook](http://lipidbook.bioch.ox.ac.uk/package/show/id/142.html).
-
-name: AMBER-GAFF-POPC-cd709-v1.zip 
-
-sha1: 20fd22c7455bb54200428a2c19a5def545e422ad
+The Gromacs compatible topology was generated from files obtained from the [Lipidbook](http://lipidbook.bioch.ox.ac.uk/package/show/id/150.html).
 
 1. Load the AMBER files in `tleap` and save the parameters using the commands below.
 
