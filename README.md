@@ -35,3 +35,22 @@ The Gromacs compatible topology was generated from files obtained from the [Lipi
         $ acpype.py -d -p PPC.prmtop -x PPC.inpcrd -r
 
 3. Rename PPC.top to POPC.itp and change the PPC string inside it with POPC (if you want).
+
+Single point energy
+===================
+
+Below are the calculated energies of the POPC.pdb structure, without any cut-off on the non-bonded interactions.
+
+Gromacs
+-------
+
+The values were obtained using the parameters defined POPC.mdp file.
+
+       Energies (kJ/mol)
+               Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
+        9.09988e+01    2.61156e+02    6.77193e+01    1.88813e+00    6.54664e+01
+         Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
+       -1.50356e+02   -3.73533e+01   -1.79221e+02    1.20299e+02    6.83835e+00
+       Total Energy    Temperature Pressure (bar)
+        1.27137e+02    4.12260e+00    0.00000e+00
+
