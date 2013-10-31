@@ -39,7 +39,20 @@ The Gromacs compatible topology was generated from files obtained from the [Lipi
 Single point energy
 -------------------
 
-Below are the calculated energies of the POPC.pdb structure, without any cut-off on the non-bonded interactions.
+Below are the calculated energies of the POPC.pdb structure, without any cut-off on the non-bonded interactions, using the following .mpd file.
+
+    integrator          = md
+    unconstrained_start = yes
+    nsteps              = 0
+    pbc                 = no
+    nstlist             = 0
+    ns-type             = simple
+    rlist               = 0
+    coulombtype         = cut-off
+    rcoulomb            = 0
+    vdwtype             = cut-off
+    rvdw                = 0
+
 
 ### Gromacs
 
