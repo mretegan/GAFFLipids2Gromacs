@@ -1,0 +1,8 @@
+source leaprc.gaff
+source GAFFlipid.dat
+loadamberparams GAFFlipid.frcmod
+loadoff PPC.lib
+PPC = loadPdb POPC.pdb
+check PPC
+saveAmberParm PPC PPC.prmtop PPC.inpcrd
+quit

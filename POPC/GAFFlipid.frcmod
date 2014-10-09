@@ -1,0 +1,139 @@
+GAFFlipid: Generalized Amber Force Field for lipid simulations with modified Lennard Jones parameters 15/2/2012
+MASS
+a3 12.010        0.878               same as c3 
+b3 12.010        0.878               same as c3
+g1 12.010        0.878               same as c3
+g2 12.010        0.878               same as c3
+g3 12.010        0.878               same as c3
+hl  1.008        0.135               same as hc
+
+BOND
+a3-hl  337.30   1.092       same as c3-hc
+a3-a3  303.10   1.535       same as c3-c3
+a3- c  328.30   1.508       same as c -c3
+b3-hl  337.30   1.092       same as c3-hc
+b3-b3  303.10   1.535       same as c3-c3
+b3- c  328.30   1.508       same as c -c3
+g1-hc  337.30   1.092       same as c3-hc
+g1-g2  303.10   1.535       same as c3-c3
+g2-hc  337.30   1.092       same as c3-hc
+g2-g3  303.10   1.535       same as c3-c3
+g3-hc  337.30   1.092       same as c3-hc
+g3-os  301.50   1.439       same as c3-os
+g2-os  301.50   1.439       same as c3-os
+g1-os  301.50   1.439       same as c3-os
+a3-c2  328.3    1.508       same as c2-c3 
+b3-c2  328.3    1.508       same as c2-c3
+
+ANGLE
+a3-a3-hl   46.400     110.050   same as c3-c3-hc
+a3-a3-a3   63.200     110.630   same as c3-c3-c3
+hl-a3-hl   39.400     108.350   same as hc-c3-hc
+c -a3-hl   47.2       109.68    same as c -c3-hc 
+c -a3-a3   63.8       110.53    same as c -c3-c3 
+o -c -a3   68.0       123.11    same as c3-c -o 
+os-c -a3   69.3       111.96    same as c3-c -os
+os-g2-hc   50.900     108.700   same as hc-c3-os
+os-g2-g3   67.800     108.420   same as c3-c3-os
+os-g2-g1   67.800     108.420   same as c3-c3-os
+c- os-g2   63.600     115.140   same as c -os-c3
+b3-c -o    68.0       123.11    same as c3-c -o
+b3-c -os   69.3       111.96    same as c3-c -os
+hl-b3-c    47.2       109.68    same as c -c3-hc
+b3-b3-c    63.8       110.53    same as c -c3-c3
+b3-b3-hl   46.400     110.050   same as c3-c3-hc
+b3-b3-b3   63.200     110.630   same as c3-c3-c3
+hl-b3-hl   39.400     108.350   same as hc-c3-hc
+g1-os-c    63.600     115.140   same as c -os-c3
+hc-g1-hc   39.400     108.350   same as hc-c3-hc
+hc-g1-os   50.900     108.700   same as hc-c3-os
+g2-g1-hc   46.400     110.050   same as c3-c3-hc
+g2-g1-os   67.800     108.420   same as c3-c3-os
+g1-g2-hc   46.400     110.050   same as c3-c3-hc
+g3-g2-hc   46.400     110.050   same as c3-c3-hc
+g3-g2-g1   63.200     110.630   same as c3-c3-c3
+g2-g3-hc   46.400     110.050   same as c3-c3-hc
+hc-g3-hc   39.400     108.350   same as hc-c3-hc
+os-g3-hc   50.900     108.700   same as hc-c3-os
+g2-g3-os   67.800     108.420   same as c3-c3-os
+g3-os-p5   62.000     118.000   same as c3-os-p5
+a3-a3-c2   63.7       110.96    same as c2-c3-c3
+a3-c2-c2   64.3       123.42    same as c2-c2-c3
+a3-c2-hl   45.1       120.00    same as c3-c2-hc
+c2-a3-hl   47.0       110.49    same as c2-c3-hl
+b3-b3-c2   63.7       110.96    same as c2-c3-c3
+b3-c2-c2   64.3       123.42    same as c2-c2-c3
+b3-c2-hl   45.1       120.00    same as c3-c2-hc
+c2-b3-hl   47.0       110.49    same as c2-c3-hl
+ha-c2-b3   45.660     117.300   same as c3-c2-ha
+ha-c2-a3   45.660     117.300   same as c3-c2-ha
+
+DIHE
+hc-g1-os-c    1    0.383         0.000           3.000      same as X -c3-os-X
+hc-g2-g1-hc   1    0.156         0.000           3.000      same as X -c3-c3-X
+hc-g2-g1-os   1    0.156         0.000           3.000      same as X -c3-c3-X
+g3-g2-g1-hc   1    0.156         0.000           3.000      same as X -c3-c3-X
+hc-g3-g2-hc   1    0.156         0.000           3.000      same as X -c3-c3-X
+hc-g3-g2-g1   1    0.156         0.000           3.000      same as X -c3-c3-X
+os-g3-g2-hc   1    0.156         0.000           3.000      same as X -c3-c3-X
+p5-os-g3-hc   1    0.383         0.000           3.000      same as X -c3-os-X
+hl-a3-a3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+a3-a3-a3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+g1-os-c -o    1    2.700       180.000           2.000      same as X -c -os-X 
+g1-os-c -c3   1    2.700       180.000           2.000      same as X -c -os-X 
+g2-g1-os-c    1    0.383         0.000           3.000      same as X -c3-os-X
+g3-g2-g1-os   1    0.156         0.000           3.000      same as X -c3-c3-X 
+os-g3-g2-g1   1    0.156         0.000           3.000      same as X -c3-c3-X 
+p5-os-g3-g2   1    0.383         0.000           3.000      same as X -c3-os-X
+g3-os-p5-o    3    2.400         0.000           2.000      same as X -os-p5-X
+g3-os-p5-os   3    2.400         0.000           2.000      same as X -os-p5-X
+a3-a3-a3-a3   1   -0.0866      180.0001          1.000      paramfit 
+a3-a3-a3-a3   1   -0.1109      180.0001          2.000      paramfit 
+a3-a3-a3-a3   1    0.1352        0.000           3.000      paramfit
+b3-b3-b3-b3   1   -0.0866      180.0001          1.000      paramfit 
+b3-b3-b3-b3   1   -0.1109      180.0001          2.000      paramfit 
+b3-b3-b3-b3   1    0.1352        0.000           3.000      paramfit
+c -a3-a3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+c -a3-a3-a3   1    0.156         0.000           3.000      same as X -c3-c3-X
+o -c -a3-hl   1    0.000       180.000           2.000      same as X -c -c3-X
+o -c -a3-a3   1    0.000       180.000           2.000      same as X -c -c3-X
+os-c -a3-hl   1    0.000       180.000           2.000      same as X -c -c3-X
+os-c -a3-a3   1    0.000       180.000           2.000      same as X -c -c3-X
+os-g2-g3-hc   1    0.156         0.000           3.000      same as X -c3-c3-X
+os-g2-g3-os   1    0.156         0.000           3.000      same as X -c3-c3-X
+os-g2-g1-hc   1    0.156         0.000           3.000      same as X -c3-c3-X
+os-g2-g1-os   1    0.156         0.000           3.000      same as X -c3-c3-X
+c -os-g2-hc   1    0.383         0.000           3.000      same as X -c3-os-X
+c -os-g2-g3   1    0.383         0.000           3.000      same as X -c3-os-X
+c -os-g2-g1   1    0.383         0.000           3.000      same as X -c3-os-X
+hl-b3-c -o    1    0.000       180.000           2.000      same as X -c -c3-X
+hl-b3-c -os   1    0.000       180.000           2.000      same as X -c -c3-X
+b3-b3-c -o    1    0.000       180.000           2.000      same as X -c -c3-X
+b3-b3-c -os   1    0.000       180.000           2.000      same as X -c -c3-X
+hl-b3-b3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+hl-b3-b3-c    1    0.156         0.000           3.000      same as X -c3-c3-X
+b3-b3-b3-c    1    0.156         0.000           3.000      same as X -c3-c3-X
+b3-b3-b3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+hl-b3-b3-b3   1    0.156         0.000           3.000      same as X -c3-c3-X
+c2-b3-b3-b3   1    0.2109        0.000           3.000      paramfit 
+c2-b3-b3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+c2-c2-b3-b3   1    0.000         0.000           2.000      same as X -c2-c3-X
+c2-c2-b3-hl   1    0.000         0.000           2.000      same as X -c2-c3-X
+c2-a3-a3-a3   1    0.2109        0.000           3.000      paramfit
+c2-a3-a3-hl   1    0.156         0.000           3.000      same as X -c3-c3-X
+c2-c2-a3-a3   1    0.000         0.000           2.000      same as X -c2-c3-X
+c2-c2-a3-hl   1    0.000         0.000           2.000      same as X -c2-c3-X
+a3-a3-c2-ha   6    0.000         0.000           2.000      same as X -c2-c3-X
+hl-a3-c2-ha   6    0.000         0.000           2.000      same as X -c2-c3-X
+b3-b3-c2-ha   6    0.000         0.000           2.000      same as X -c2-c3-X
+ha-c2-b3-hl   6    0.000         0.000           2.000      same as X -c2-c3-X
+
+IMPROPER
+
+NONBON
+  a3          2.01    0.055              fit to exp 
+  b3          2.01    0.055              fit to exp 
+  g1          1.9080  0.1094             same as c3
+  g2          1.9080  0.1094             same as c3
+  g3          1.9080  0.1094             same as c3
+  hl          1.34    0.024              fit to exp 
