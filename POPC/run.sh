@@ -12,7 +12,7 @@ rm *.mdp
 sander -O -c PPC.inpcrd -p PPC.prmtop
 
 # GROMACS
-grompp_d -p PPC_GMX.top -c POPC.pdb
+grompp -p PPC_GMX.top -c POPC.pdb
 mdrun 
 
 # Cleaning
